@@ -1,0 +1,66 @@
+.programs {
+    margin-top: 70px;
+    border-bottom: 0.25px #DCE0E5 solid;
+
+    p {
+        color: #F2B848;
+        font-size: 21px;
+        font-family: PT Sans;
+        font-weight: 400;
+        line-height: 30px;
+        word-wrap: break-word;
+    }
+
+    h4 {
+        width: 741px;
+        color: #0F3163;
+        font-size: 42px;
+        font-family: Source Sans Pro;
+        font-weight: 700;
+        line-height: 48px;
+        word-wrap: break-word;
+    }
+
+    h6 {
+        color: #768497;
+        font-size: 21px;
+        font-family: PT Sans;
+        font-weight: 400;
+        line-height: 30px;
+        word-wrap: break-word;
+        width: 80%;
+    }
+
+    
+    .col-lg-4 {
+        gap: 15px;
+        
+        p {
+            width: 288px;
+            color: #8B97A7;
+            font-size: 16px;
+            font-family: PT Sans;
+            font-weight: 400;
+            line-height: 23.10px;
+            word-wrap: break-word;
+        }
+        h5 {
+            color: #0F3163;
+            font-size: 21px;
+            font-family: PT Sans;
+            font-weight: 400;
+            line-height: 30px;
+            word-wrap: break-word
+        }
+
+        .award {
+            width: 40px;
+            height: 40px;
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            background: rgba(242, 184, 72, 0.25);
+            border-radius: 9999px
+        }
+    }
+}

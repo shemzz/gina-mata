@@ -1,0 +1,23 @@
+.partners {
+    padding: 37px;
+    border-top: 0.25px #DCE0E5 solid;
+    border-bottom: 0.25px #DCE0E5 solid;
+    align-items: center;
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    .partners{
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+    }
+    .col{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 212px;
+        }
+
+    }
+ }

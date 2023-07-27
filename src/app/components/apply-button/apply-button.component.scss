@@ -1,0 +1,22 @@
+  // Apply Button
+  .apply-button {
+    background: #52B848;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    display: flex;
+     width: 100%;
+
+    // Nested Apply Button Content
+    button {
+      color: #FAFAFA;
+      font-size: 18px;
+      padding: 8px 35px;
+      font-family: Average Sans;
+      font-weight: 400;
+      line-height: 15px;
+      word-wrap: break-word;
+    }
+    
+  }

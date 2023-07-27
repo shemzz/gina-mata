@@ -1,0 +1,65 @@
+<div class="container">
+  <div class="row mx-4">
+    <div class="col-lg-6">
+      <div class="accordion" id="accordionItems">
+        <div *ngFor="let item of leftItems;" class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed arrow"
+              type="button"
+              (click)="toggleItem(item.number)"
+              [attr.aria-expanded]="openItemIndex === item.number"
+              [attr.aria-controls]="'collapse' + item.number"
+            >
+              {{ item.question }}
+            </button>
+          </h2>
+          <div
+            [@collapse]="openItemIndex === item.number ? 'open' : 'closed'"
+            [attr.id]="'collapse' + item.number"
+            class="accordion-collapse"
+            [attr.aria-labelledby]="'heading' + item.number"
+            data-bs-parent="#accordionItems"
+          >
+            <div class="accordion-body">
+              {{ item.answer }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6">
+      <div class="accordion" id="accordionItems">
+        <div *ngFor="let item of rightItems;" class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed arrow"
+              type="button"
+              (click)="toggleItem(item.number)"
+              [attr.aria-expanded]="openItemIndex === item.number"
+              [attr.aria-controls]="'collapse' + item.number"
+            >
+              {{ item.question }}
+            </button>
+          </h2>
+          <div
+            [@collapse]="openItemIndex === item.number ? 'open' : 'closed'"
+            [attr.id]="'collapse' + item.number"
+            class="accordion-collapse"
+            [attr.aria-labelledby]="'heading' + item.number"
+            data-bs-parent="#accordionItems"
+          >
+            <div class="accordion-body">
+              {{ item.answer }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+  

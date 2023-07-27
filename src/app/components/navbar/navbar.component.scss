@@ -1,0 +1,42 @@
+$navBarWidth: 100%;
+$navBarPaddingTop: 18px;
+$navBarPaddingBottom: 20.10px;
+$navBarPaddingLeft: 120px;
+$navBarPaddingRight: 83px;
+$navBarBorderBottom: 0.25px #DCE0E5 solid;
+
+.navbar {
+  padding-top: $navBarPaddingTop;
+  padding-bottom: $navBarPaddingBottom;
+  border-bottom: $navBarBorderBottom;
+ 
+  
+  .nav-link {
+    color: #8B97A7;
+    font-size: 16px;
+    font-family: PT Sans;
+    font-weight: 400;
+    line-height: 23.10px;
+    word-wrap: break-word;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+ .navbar-collapse{
+  justify-content: flex-end;
+ }
+  .navbar-brand {
+    padding-left: $navBarPaddingLeft;
+  }
+  .navbar-nav {
+  padding-right: $navBarPaddingRight;
+  padding-left:$navBarPaddingLeft;;
+}
+.nav-link {
+  margin: auto 20px;
+}
+app-apply-button{
+  margin-left: 50px;
+}
+}

@@ -1,0 +1,28 @@
+.socials {
+    height: 160px;
+    padding-left: 15px 110px;
+    border-top: 0.25px #8B97A7 solid;
+    border-bottom: 0.25px #8B97A7 solid;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    h4 {
+        color: #8B97A7;
+        font-size: 30px;
+        font-family: Source Sans Pro;
+        font-weight: 700;
+        line-height: 40px;
+        word-wrap: break-word
+    }
+
+    .col-lg-3 {
+        div {
+            margin-right: 15px;
+            margin-bottom: 0px;
+            width: 24px;
+        height: 24px;
+        position: relative;
+        }
+    }
+}

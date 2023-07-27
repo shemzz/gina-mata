@@ -1,0 +1,41 @@
+.contact {
+    margin-top: 70px;
+    border-bottom: 0.25px #DCE0E5 solid;
+    padding-bottom: 70px;   
+
+    h6 {
+        color: #F2B848;
+        font-size: 21px;
+        font-family: PT Sans;
+    }
+
+    h4 {
+        // width: 60%;
+        color: #0F3163;
+        font-size: 42px;
+        font-family: Source Sans Pro;
+        font-weight: 700;
+        line-height: 48px;
+        word-wrap: break-word
+    }
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.25px #8B97A7 solid;
+    margin:  12px 20px;
+    padding: 60px;
+    height: 19rem;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    h6 {
+        line-height: 30px;
+        font-family: Source Sans Pro;
+    }
+    svg {
+        margin-bottom: 15px;
+    }
+}
+  
+}
